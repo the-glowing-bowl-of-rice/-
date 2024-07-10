@@ -1,3 +1,23 @@
 body{
     background-color: rgb(238, 187, 187);
 }
+
+img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    background-color: rgba(240, 146, 182, 0.596);
+    width: 900px;
+    height : 100vh;
+    margin-top: 60px;
+    position: fixed;
+    z-index: -1;
+}
